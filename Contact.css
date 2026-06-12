@@ -1,0 +1,116 @@
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.1fr;
+  gap: 18px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.contact-info__item {
+  padding: 26px;
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.contact-info__icon {
+  display: flex;
+  color: var(--orange);
+  flex: none;
+  margin-top: 2px;
+}
+
+.contact-info__title {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+  text-transform: uppercase;
+  color: var(--navy);
+}
+
+.contact-info__text {
+  margin: 6px 0 0;
+  font-size: 16px;
+  color: rgba(var(--navy-rgb), 0.65);
+  line-height: 1.5;
+}
+
+.contact-map {
+  position: relative;
+  flex: 1;
+  min-height: 150px;
+  border-radius: 17.5px;
+  border: 1px solid rgba(var(--navy-rgb), 0.12);
+  background: repeating-linear-gradient(135deg, var(--ph-a), var(--ph-a) 12px, var(--ph-b) 12px, var(--ph-b) 24px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.contact-map__label {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #fff;
+  background: var(--navy);
+  padding: 10px 16px;
+  border-radius: 8.75px;
+}
+
+.contact-map__label-icon {
+  display: flex;
+}
+
+.contact-form {
+  padding: 34px;
+}
+
+.contact-form__fields {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contact-form__label {
+  font-family: 'Oswald', sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(var(--navy-rgb), 0.6);
+}
+
+.contact-form__input {
+  display: block;
+  width: 100%;
+  margin-top: 8px;
+  padding: 14px 16px;
+  border-radius: 13.125px;
+  border: 1px solid rgba(var(--navy-rgb), 0.2);
+  font-family: 'EB Garamond', serif;
+  font-size: 16px;
+  outline: none;
+}
+
+.contact-form__textarea {
+  resize: vertical;
+}
+
+.contact-form__submit {
+  padding: 15px;
+  justify-content: center;
+}
+
+@media (max-width: 760px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+}

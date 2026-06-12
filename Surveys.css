@@ -1,0 +1,30 @@
+.survey-card {
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  min-height: 200px;
+}
+
+.survey-card__icon {
+  display: flex;
+  color: var(--orange);
+  margin-bottom: 16px;
+}
+
+.survey-card__name {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: 21px;
+  text-transform: uppercase;
+  margin: 0 0 10px;
+  color: var(--navy);
+  line-height: 1.1;
+}
+
+.survey-card__desc {
+  margin: 0 0 18px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: rgba(var(--navy-rgb), 0.62);
+  flex: 1;
+}

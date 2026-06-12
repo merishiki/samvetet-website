@@ -1,0 +1,280 @@
+.about-title {
+  font-size: clamp(36px, 4vw, 60px);
+  max-width: 14em;
+}
+
+/* ---------- stats ---------- */
+
+.about-stats {
+  margin: 40px 0 8px;
+}
+
+.about-stat {
+  background: var(--navy);
+  border-radius: 17.5px;
+  padding: 32px;
+  color: #fff;
+}
+
+.about-stat__num {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: clamp(34px, 3.4vw, 48px);
+  line-height: 1;
+  color: var(--orange-light);
+}
+
+.about-stat__label {
+  font-size: 17px;
+  color: rgba(255, 255, 255, 0.72);
+  margin-top: 8px;
+}
+
+/* ---------- mission / structure ---------- */
+
+.about-info {
+  margin-top: 32px;
+}
+
+.about-info__card {
+  padding: 34px;
+}
+
+.about-info__title {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin: 0 0 12px;
+  color: var(--navy);
+}
+
+.about-info__text {
+  font-size: 18px;
+  line-height: 1.6;
+  color: rgba(var(--navy-rgb), 0.7);
+  margin: 0;
+}
+
+/* ---------- shared section ---------- */
+
+.about-section {
+  margin-top: 48px;
+  padding-top: 44px;
+  border-top: 1px solid rgba(var(--navy-rgb), 0.12);
+}
+
+.about-section__title {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: clamp(26px, 2.4vw, 36px);
+  text-transform: uppercase;
+  margin: 0 0 22px;
+  color: var(--navy);
+}
+
+/* ---------- office hours ---------- */
+
+.office-hours {
+  display: grid;
+  grid-template-columns: 1fr 1.15fr;
+  gap: 18px;
+  align-items: stretch;
+}
+
+.office-hours__card {
+  padding: 34px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.office-hours__row {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.office-hours__row--divider {
+  border-top: 1px solid rgba(var(--navy-rgb), 0.1);
+  padding-top: 24px;
+}
+
+.office-hours__icon {
+  display: flex;
+  color: var(--orange);
+  flex: none;
+  margin-top: 2px;
+}
+
+.office-hours__label {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(var(--navy-rgb), 0.5);
+  margin-bottom: 4px;
+}
+
+.office-hours__value {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: 26px;
+  text-transform: uppercase;
+  color: var(--navy);
+}
+
+.office-hours__address {
+  font-size: 19px;
+  color: var(--navy);
+  line-height: 1.4;
+}
+
+.office-hours__map {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  min-height: 240px;
+  border-radius: 17.5px;
+  overflow: hidden;
+  text-decoration: none;
+  padding: 22px;
+}
+
+.office-hours__map-dot {
+  position: absolute;
+  top: 18px;
+  left: 18px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--orange);
+  box-shadow: 0 0 0 5px rgba(var(--orange-rgb), 0.25);
+}
+
+.office-hours__map-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #fff;
+  background: var(--navy);
+  padding: 12px 18px;
+  border-radius: 8.75px;
+}
+
+.office-hours__map-label-icon {
+  display: flex;
+}
+
+/* ---------- representatives ---------- */
+
+.about-reps {
+  scroll-margin-top: 100px;
+}
+
+.about-reps__title {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: clamp(30px, 3vw, 46px);
+  text-transform: uppercase;
+  margin: 0 0 10px;
+  color: var(--navy);
+}
+
+.about-reps__lead {
+  margin: 0 0 32px;
+}
+
+.about-reps__grid {
+  margin-bottom: 44px;
+}
+
+.rep-card {
+  overflow: hidden;
+}
+
+.rep-card__photo {
+  aspect-ratio: 1 / 1;
+  padding: 14px;
+}
+
+.rep-card__body {
+  padding: 20px 22px 22px;
+}
+
+.rep-card__role {
+  font-family: 'Oswald', sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--orange);
+}
+
+.rep-card__name {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  text-transform: uppercase;
+  margin: 5px 0 10px;
+  color: var(--navy);
+}
+
+.rep-card__email {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--navy);
+  text-decoration: none;
+  border-bottom: 1px solid var(--orange);
+  padding-bottom: 2px;
+}
+
+.board-card {
+  padding: 22px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.board-card__avatar {
+  width: 54px;
+  height: 54px;
+  border-radius: 13.125px;
+  flex: none;
+  background: repeating-linear-gradient(135deg, var(--ph-a), var(--ph-a) 7px, var(--ph-b) 7px, var(--ph-b) 14px);
+}
+
+.board-card__body {
+  min-width: 0;
+}
+
+.board-card__name {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: var(--navy);
+  line-height: 1.1;
+}
+
+.board-card__role {
+  font-size: 14px;
+  color: rgba(var(--navy-rgb), 0.55);
+  margin-top: 3px;
+}
+
+/* ---------- responsive ---------- */
+
+@media (max-width: 760px) {
+  .office-hours {
+    grid-template-columns: 1fr;
+  }
+}

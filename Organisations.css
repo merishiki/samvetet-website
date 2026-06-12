@@ -1,0 +1,53 @@
+.orgs-banner {
+  aspect-ratio: 16 / 5;
+  border-radius: 17.5px;
+  overflow: hidden;
+  border: 1px solid rgba(var(--navy-rgb), 0.12);
+  padding: 20px;
+  margin-bottom: 26px;
+}
+
+.orgs-placeholder-note {
+  display: inline-block;
+  font-family: 'Oswald', monospace;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(var(--navy-rgb), 0.4);
+  border: 1px dashed rgba(var(--navy-rgb), 0.3);
+  padding: 7px 14px;
+  margin-bottom: 30px;
+}
+
+.org-card {
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  min-height: 200px;
+}
+
+.org-card__num {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--orange);
+  letter-spacing: 0.06em;
+}
+
+.org-card__name {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: 21px;
+  text-transform: uppercase;
+  margin: 8px 0 10px;
+  color: var(--navy);
+  line-height: 1.1;
+}
+
+.org-card__desc {
+  margin: 0 0 18px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: rgba(var(--navy-rgb), 0.62);
+  flex: 1;
+}
